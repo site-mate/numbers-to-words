@@ -1,6 +1,6 @@
 const  { convertNumberToWords } = require('./index');
 
-describe('Time to words', () => {
+describe('Number to words', () => {
   it('Handles one', () => {
     const numberInWords = convertNumberToWords(1);
     expect(numberInWords).toBe('one');
